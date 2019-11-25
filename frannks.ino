@@ -6,6 +6,7 @@ TODO: add license
 */
 
 #include "keymap.h"
+#include "util.h"
 
 int analogxval = -1;
 int analogyval = -1;

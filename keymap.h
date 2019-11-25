@@ -1,3 +1,6 @@
+#ifndef KEYMAP_H
+#define KEYMAP_H
+
 #include "util.h"
 
 /* matrix dimensions */
@@ -24,3 +27,5 @@ Key keymap[rowc][columnc] = { \
 	{ dk(KB, KEY_A), dk(KB, KEY_S), dk(KB, KEY_D) }, \
 	{ dk(JS, 7),     dk(JS, 8),     dk(JS, 9)     }
 };
+
+#endif

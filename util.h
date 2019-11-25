@@ -1,3 +1,6 @@
+#ifndef UTIL_H
+#define UTIL_H
+
 /* structs and enums */
 
 enum KeyType{KB, JS}; // KB -> keyboard; JS -> joystick
@@ -8,11 +11,6 @@ typedef struct Key {
 	int is_pressed;
 } Key;
 
-typedef struct AnalogInput {
-	int pin;
-	void (*update_func)(uint16_t);
-} AnalogInput;
-
 /* dk -> donkey kong/define key */
 Key dk(enum KeyType key_type, int key) { 
 	Key r;
@@ -22,3 +20,5 @@ Key dk(enum KeyType key_type, int key) {
 
 	return r;
 };
+
+#endif
