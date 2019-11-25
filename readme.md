@@ -1,5 +1,5 @@
-# F.R.A.N.N.K.S.
-Flipping Radical and Amazing Nifty New Keyboard Software
+# F.R.A.N.N.K.F.
+Flipping Radical and Amazing Nifty New Keyboard Firmware
 
 ---
 
